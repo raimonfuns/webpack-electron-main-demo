@@ -14,8 +14,7 @@
 
 1. 运行 `node prs-atm`，正常打印结果
 2. 运行 `yarn pack:prs-atm`
-
-日志如下：
+3. 报错了，日志如下：
 
 ```
 yarn run v1.22.5
