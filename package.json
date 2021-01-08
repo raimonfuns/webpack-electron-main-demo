@@ -1,0 +1,21 @@
+{
+  "name": "webpack-electron-main-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pack:uuid": "webpack --config webpack.config.uuid.js",
+    "pack:prs-atm": "webpack --config webpack.config.prs-atm.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "prs-atm": "^3.0.17",
+    "uuid": "^8.3.2"
+  }
+}
