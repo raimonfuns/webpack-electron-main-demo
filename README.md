@@ -4,14 +4,16 @@
 
 ## 对照组：用 uuid 简单测试一下打包功能
 
-1. `yarn pack:uuid`
-2. 产生 `./dist/uuid.output.js`
-3. 测试打包的结果：`node ./dist/uuid.output.js`
-4. 成功打印出结果，说明打包功能是没问题
+1. 运行 `node uuid`，正常打印结果
+2. 运行 `yarn pack:uuid`
+3. 产生 `./dist/uuid.output.js`
+4. 测试打包的结果：`node ./dist/uuid.output.js`
+5. 正常打印结果，说明打包功能是没问题
 
 ## 实验组：打包 prs-atm
 
-1. `yarn pack:prs-atm`
+1. 运行 `node prs-atm`，正常打印结果
+2. 运行 `yarn pack:prs-atm`
 
 日志如下：
 
